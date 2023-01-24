@@ -1,0 +1,23 @@
+.Tile{
+    //background-color: aqua;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid #F5F5F5;
+    ;
+    &>*{
+        margin: 0 1rem;
+    }
+    .content{
+        margin-top: 1rem;
+
+        &>*:not(:last-child ){
+            margin-bottom: .4rem;
+        }
+        .fa-location-dot{
+            color: #DADADA;
+            margin-right: .5rem;
+        }
+    }
+    
+}
