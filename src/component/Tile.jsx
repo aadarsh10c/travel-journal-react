@@ -3,7 +3,7 @@ import React from "react";
 export default function Tile(props){
     return (
         <div className="Tile">
-            <img src={"./src/assets/img/"+props.imageUrl} alt={props.title} className="Tile__img" />
+            <img src={"../assets/img/"+props.imageUrl} alt={props.title} className="Tile__img" />
             <div className="content">
                 <div className="content__location">
                 <i class="fa-solid fa-location-dot sm"></i>
