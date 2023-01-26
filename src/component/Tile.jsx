@@ -15,7 +15,7 @@ export default function Tile(props){
                     {props.title}
                 </h3>
                 <h5 className="content__date">
-                    {props.startDate} + " - " + {props.endDate}
+                    {props.startDate + " - " + props.endDate}
                 </h5>
                 <p className="content__text">
                     {props.description}
